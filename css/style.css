@@ -1,0 +1,61 @@
+
+.custom-1 {
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+ font-family: 'Roboto', sans-serif;
+ font-weight: 700;
+}
+
+.custom-3 {
+ @import url('https://fonts.googleapis.com/css2?family=MuseoModerno&display=swap');
+ font-family: 'MuseoModerno', cursive;
+ font-weight: 400;
+}
+
+/* Header */
+header,footer,main,Copyright {
+  background-color: #8B00FF;
+}
+
+/* Navbar */
+nav {
+  background-color: #5A009D;
+}
+
+/* Navbar1 */
+nav1 {
+  background-color: #8B00FF;
+}
+/* background image */
+body {
+background-color: #8B00FF;
+
+  /* Header, footer */
+
+
+
+  /* Navbar */
+
+  .navbar-brand {
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  .nav-link, .dropdown-item {
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: lowercase;
+  }
+
+  nav li {
+    padding: 0 18px;
+  }
+
+  nav li.active, nav li.active:before {
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+  }
+
+    /*Contact me */
+h3{
+background-color: #5A009D;
+}
